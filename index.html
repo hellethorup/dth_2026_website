@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML and CSS</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="./assets/marked.js" defer></script>
+    <script src="./assets/content_load.js" defer></script>
+    <script src="./assets/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div id="navBar" class="flex defaultPageMargin">
+        <a class="blueText" href="./index.html">DTH class template</a>
+        <nav>
+          <ul class="flex">
+            <!-- to add a page: create pages/my_page.md and add a link with ?page=my_page -->
+            <li><a class="navLink" href="./index.html?page=page_one">page one</a></li>
+            <li><a class="navLink" href="./index.html?page=page_two">page two</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="pageHero">
+        <div id="bannerShadow" class="flex"><h1>Loading...</h1></div>
+      </div>
+    </header>
+    <main class="defaultPageMargin">
+      <!-- the text in this section comes from the markdown files in the pages folder -->
+      <section id="content">
+        <p>Loading...</p>
+      </section>
+      <p id="charCount" class="lightText"></p>
+      <section>
+        <div id="carouselMain" class="flex">
+          <article class="carouselArt outOfFocusArt" data-artID="1">
+            <h3>headline for article 1</h3>
+            <img src="./assets/images/hirsthals.jpg" alt="article 1 banner image" />
+            <p>This is the text for article 1, you can write here whatever you want.</p>
+          </article>
+          <article class="carouselArt inFocusArt" data-artID="2">
+            <h3>headline for article 2</h3>
+            <img src="./assets/images/monaco.jpg" alt="article 2 banner image" />
+            <p>This is the text for article 2, you can write here whatever you want.</p>
+          </article>
+          <article class="carouselArt outOfFocusArt" data-artID="3">
+            <h3>headline for article 3</h3>
+            <img src="./assets/images/mountains.jpg" alt="article 3 banner image" />
+            <p>This is the text for article 3, you can write here whatever you want.</p>
+          </article>
+        </div>
+        <div id="carouselBtnContainer" class="flex">
+          <button id="carouselBtnLeft" class="carouselBtn">&#x2B9C;</button>
+          <button id="carouselBtnRight" class="carouselBtn">&#x2B9E;</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="footerBody" class="defaultPageMargin flex">
+        <p class="blueText">Digital Technologies in the Humanities, fall 2026</p>
+      </div>
+    </footer>
+  </body>
+</html>

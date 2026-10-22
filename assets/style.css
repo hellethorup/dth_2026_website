@@ -1,0 +1,231 @@
+/* root setup */
+
+/* here we import the Lexend font from Google fonts. You can browse other fonts at https://fonts.google.com/*/
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+/* here we set up project specific variables - this way we can keep the style consistent across all pages and elements. You can also create variable names for specific fonts and other elements */
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #5899e2;
+  --light-blue: #d6eaff;
+  --green: #9de38c;
+  --purple: #ceaeea;
+  --red: #f22c43;
+  --yellow: #fddd0d;
+  --projectFont: Lexend, Arial, sans-serif;
+}
+
+/* individual element styles */
+
+body {
+  font-family: var(--projectFont);
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+}
+
+/* some of HTML elements come with element specific style, we want to remove it so we can style them ourselves */
+a {
+  color: inherit; /* the "inherit" property ensures that the element uses the same style as its parent - an element specific style will overwrite this property*/
+  text-decoration: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+/* navigation bar */
+#navBar {
+  justify-content: space-between;
+}
+
+#navBar>a {
+  align-self: center;
+  transition: ease-in-out, 0.3s;
+}
+
+.navLink,
+.footerLinks {
+  margin-left: 20px;
+  transition: ease-in-out, 0.3s;
+}
+
+#navBar>a:hover {
+  color: var(--green);
+  cursor: pointer;
+}
+.navLink:hover {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+/* hero banner */
+
+#pageHero {
+  background-image: url("./images/skagen.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+#bannerShadow {
+  background-color: rgba(160, 213, 240, 0.447);
+  height: 100%;
+}
+
+h1 {
+  width: 100%;
+  padding: 0;
+  align-self: center;
+  text-align: center;
+}
+
+/* carousel articles */
+
+#carouselMain {
+  justify-content: center;
+  aspect-ratio: 6 / 3;
+}
+
+.carouselArt {
+  padding: 20px;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  position: relative;
+  transition: ease-out, 1s;
+}
+
+.carouselArt::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to bottom, transparent, var(--white));
+  pointer-events: none;
+}
+
+.carouselArt img {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  background-color: var(--light-blue);
+}
+
+#carouselBtnContainer {
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carouselBtn {
+  background-color: var(--white);
+  outline: none;
+  border: none;
+  color: var(--blue);
+  font-size: 48px;
+  margin: 0 40px;
+  transition: ease-in-out, 0.3s;
+}
+
+.carouselBtn:hover {
+  cursor: pointer;
+  color: var(--green);
+  transform: scale(1.3);
+}
+
+/* footer */
+
+footer {
+  background-color: var(--light-blue);
+  margin: 0;
+}
+
+#footerBody{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* style classes */
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.defaultPageMargin {
+  margin: 0 10%;
+}
+
+.blueText {
+  color: var(--blue);
+}
+
+.redText {
+  color: var(--red);
+}
+
+.lightText {
+  font-weight: 200;
+}
+
+/* markdown content */
+
+/* markdown cannot add classes, so the first paragraph after a headline gets the light style this way */
+main h2 + p {
+  font-weight: 200;
+}
+
+/* the resets at the top remove link colours and bullets everywhere, so we give them back inside main */
+main a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+main ul {
+  list-style: disc;
+}
+
+main strong {
+  font-weight: 600;
+}
+
+main img {
+  max-width: 100%;
+}
+
+.outOfFocusArt {
+  width: 15%;
+  font-weight: 100;
+}
+.outOfFocusArt h3 {
+  font-weight: 300;
+}
+
+.inFocusArt {
+  width: 70%;
+}
+
+.btnDisabled {
+  color: var(--light-blue);
+}
+.btnDisabled:hover {
+  color: var(--light-blue);
+  cursor: auto;
+  transform: scale(1);
+}
+
+#page_two h2 { color: var(--red); }
