@@ -4,7 +4,7 @@
 
 ### Accessibility and affordability
 
-First, open source software makes digital tools more accessible. Since many open source programs are free to use, they can reduce financial barriers for users such as students. For example, Zotero is an open-source reference management tool that helps users collect, organize, and cite academic sources without paying for an expensive subscription. This makes it easier for people with different financial resources to access the same research tools. In this way, open source software can help create more equal opportunities to participate in academic and professional work.
+First, open source software makes digital tools more accessible. Since many open source programs are free to use, they can reduce financial barriers for users such as students. For example, Zotero is an open-source reference management tool that helps users collect, organize, and cite academic sources without paying for an expensive subscription (*Your Personal Research Assistant*, n.d.). This makes it easier for people with different financial resources to access the same research tools. In this way, open source software can help create more equal opportunities to participate in academic and professional work.
 
 ### Transparency and user control
 
@@ -18,5 +18,6 @@ Finally, open source encourages collaboration and collective development. Develo
 **Sources:** 
 - *What is Open Source Software? OSS Explained in Plain English.* (2021, August 17). freeCodeCamp.Org. https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english/
 - *Why Zotero?* (n.d.). Zotero. Retrieved November 9, 2026, from https://www.zotero.org/why
+- *Your personal research assistant.* (n.d.). Zotero. Retrieved November 9, 2026, from https://www.zotero.org/
 
 
