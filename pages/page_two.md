@@ -18,5 +18,3 @@ Overall, open source software is not automatically sustainable or reliable. Its 
 
 **Sources:**
 - 
-
-
