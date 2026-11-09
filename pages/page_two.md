@@ -17,4 +17,3 @@ Finally, open source software can require more technical knowledge from its user
 Overall, open source software is not automatically sustainable or reliable. Its success depends on an active community, sufficient resources, and continued maintenance. Users therefore need to consider not only what a project offers, but also who contributes to it and how those contributions are reviewed.
 
 **Sources:**
-- 
