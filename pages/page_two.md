@@ -1,6 +1,4 @@
-# Page two
-
-## What are the disadvantages of open source software?
+# What are the disadvantages of open source software?
 
 ### Maintenance and financial sustainability
 
@@ -8,7 +6,7 @@ One disadvantage is maintenance and long-term sustainability. Open source projec
 
 ### Security and reliability
 
-Another challenge concerns quality, reliability, and trust. Although anyone can examine open source code, that doesn't automatically make software secure or error-free. Projects vary in how actively they are maintained, how thoroughly changes are tested, and how quickly they address problems. Zotero's citation styles illustrate this challenge. Because users can contribute new styles, the selection can expand to meet different academic requirements. However, users also have to trust the people who create and modify these styles. An incorrect or poorly updated citation style can lead to errors in the references of many users who rely on it. More broadly, changes to a project's code can affect many users, especially when the software is widely used. This makes quality control and responsible review of contributions essential.
+Another challenge concerns quality, reliability, and trust. Although anyone can examine open source code, that doesn't automatically make software secure or error-free. Projects vary in how actively they are maintained, how thoroughly changes are tested, and how quickly they address problems. Zotero's citation styles illustrate this challenge. Because users can contribute new styles, the selection can expand to meet different academic requirements. However, users must also trust the people who create and modify these styles. An incorrect or poorly updated citation style can lead to errors in the references of many users who rely on it. More broadly, changes to a project's code can affect many users, especially when the software is widely used. This makes quality control and responsible review of contributions essential.
 
 ### Accessibility and technical limitations
 

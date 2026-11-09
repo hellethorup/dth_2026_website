@@ -1,6 +1,4 @@
-# Page one
-
-## What are the advantages of open source software?
+# What are the advantages of open source software?
 
 ### Accessibility and affordability
 
