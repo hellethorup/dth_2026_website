@@ -1,17 +1,18 @@
 # What are the disadvantages of open source software?
 
-### Maintenance and financial sustainability
+### Technical skills
 
-One disadvantage is maintenance and long-term sustainability. Open source projects often rely on contributions from volunteers or small development teams. While this can encourage collaboration, it also means development may depend on how much time and resources contributors can dedicate to the project. If key contributors lose interest or funding becomes unavailable, updates and technical support may slow down or stop entirely. This can be a problem for users who rely on the software for important tasks and need it to remain functional over time.
+One challenge is that open source software can require users to have technical knowledge. Some programs are easy to download and use, while others require users to install dependencies, configure settings, or work with code. This can create a barrier for people without technical experience. Heron, Hanson, and Ricketts (2013) point out that documentation and user support are often limited in open source projects, partly because developers tend to prioritize technical development over writing user guides (Heron et al., 2013). As a result, users may struggle to find help when problems occur. Software can also change significantly between updates, making familiar routines difficult to maintain.
+
+### Maintenance
+
+Another issue is long-term maintenance. Open source projects can become outdated if developers stop maintaining them or if funding and resources are insufficient. Maintaining software requires ongoing work, but contributors do not always receive the financial support or recognition needed to sustain it. Users may therefore have to find alternatives or have the technical skills to update the software themselves (The Pros and Cons of Open Software, n.d.).
 
 ### Security and reliability
 
-Another challenge concerns quality, reliability, and trust. Although anyone can examine open source code, that doesn't automatically make software secure or error-free. Projects vary in how actively they are maintained, how thoroughly changes are tested, and how quickly they address problems. Zotero's citation styles illustrate this challenge. Because users can contribute new styles, the selection can expand to meet different academic requirements. However, users must also trust the people who create and modify these styles. An incorrect or poorly updated citation style can lead to errors in the references of many users who rely on it. More broadly, changes to a project's code can affect many users, especially when the software is widely used. This makes quality control and responsible review of contributions essential.
-
-### Accessibility and technical limitations
-
-Finally, open source software can require more technical knowledge from its users. Some projects have limited documentation or lack dedicated customer support, which can make troubleshooting difficult for people without technical experience.
-
-Overall, open source software is not automatically sustainable or reliable. Its success depends on an active community, sufficient resources, and continued maintenance. Users therefore need to consider not only what a project offers, but also who contributes to it and how those contributions are reviewed.
+Finally, openness does not automatically guarantee quality or security. Although anyone can examine the source code, this does not mean that all errors or vulnerabilities will be discovered. Users also need to consider whether software is actively maintained and whether contributions are reviewed. Zotero's citation styles illustrate the importance of trust. Users can contribute new styles to meet specific academic requirements, but they must also trust that these contributions are accurate (Get Involved, n.d.). An incorrect style can affect the references of many people who rely on it. This shows how contributions to open source projects need to be reviewed and maintained responsibly – or users have to stay alert and critical when using open source software.
 
 **Sources:**
+- Get Involved. (n.d.). Zotero. Retrieved November 12, 2026, from https://www.zotero.org/getinvolved
+- Heron, M. J., Hanson, V. L., & Ricketts, I. (2013). Open Source and Accessibility: Advantages and Limitations. Journal of Interaction Science, 1(1), 2. https://doi.org/10.1186/2194-0827-1-2
+- The Pros and Cons of Open Software. (n.d.). OpenSciency Introductory Resources on Open Science. Retrieved November 11, 2026, from https://opensciency.github.io/sprint-content/open-software/lesson2-pros-cons.html
