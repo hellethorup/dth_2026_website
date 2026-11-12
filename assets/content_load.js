@@ -29,6 +29,7 @@ fetch(file)
       heading.remove();
     }
 
+   // I changed the charactercount so it wouldn't count my sources on the bottom
     
 // Make a copy of the content so the sources remain visible
 const countContent = content.cloneNode(true);
