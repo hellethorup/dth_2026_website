@@ -10,11 +10,11 @@ As a student of Aesthetics and Culture with an elective in Museology, I find Sto
 
 ### The 5 checks
 
-**1. Lincense:** It uses The Mozilla Public License (v. 2.0), which allows users to use, modify and distribute the software, provided they comply with its conditions, including making modifications to covered source files available under the same licence
-**2. Last change:** The latest commit was on September 13th 2026
-**3. Contributers:** 36
-**4. Questions:** 109 opened and 281 closed issues. Some have responses from the development team, but others remain unanswered. The latest closed issue was in January 2026, so it takes a while between answers.
-**5. Funding:** Knight Lab was launched in 2011 with support from the John S. and James L. Knight Foundation. It is part of Northwestern University and run by designers, developers, students, and educators
+1. **Lincense:** It uses The Mozilla Public License (v. 2.0), which allows users to use, modify and distribute the software, provided they comply with its conditions, including making modifications to covered source files available under the same licence
+2. **Last change:** The latest commit was on September 13th 2026
+3. **Contributers:** 36
+4. **Questions:** 109 opened and 281 closed issues. Some have responses from the development team, but others remain unanswered. The latest closed issue was in January 2026, so it takes a while between answers.
+5. **Funding:** Knight Lab was launched in 2011 with support from the John S. and James L. Knight Foundation. It is part of Northwestern University and run by designers, developers, students, and educators
 
 **Sources:**
 - *About Us.* (n.d.). Northwestern University Knight Lab. Retrieved November 12, 2026, from https://knightlab.northwestern.edu/about/
