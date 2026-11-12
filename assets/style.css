@@ -231,5 +231,5 @@ main img {
 #page_two h2 { color: var(--black); }
 
 ol li::marker {
-    font-weight: 700 !important;
+  font-weight: bold;
 }
