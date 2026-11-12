@@ -64,6 +64,12 @@ section {
   cursor: pointer;
 }
 
+.navLink {
+  background-color: white;
+  border: 6px solid black;
+}
+
+
 /* hero banner */
 
 #pageHero {
