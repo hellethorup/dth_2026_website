@@ -29,7 +29,27 @@ fetch(file)
       heading.remove();
     }
 
-    charCount.textContent = countCharacters(content.textContent) + " characters";
+    
+// Make a copy of the content so the sources remain visible
+const countContent = content.cloneNode(true);
+
+// Find the Sources paragraph
+const sourceHeading = Array.from(countContent.querySelectorAll("p"))
+  .find(p => p.textContent.trim() === "Sources:");
+
+if (sourceHeading) {
+  // Remove Sources and everything after it
+  let element = sourceHeading;
+  while (element) {
+    const next = element.nextElementSibling;
+    element.remove();
+    element = next;
+  }
+}
+
+// Count the remaining text
+charCount.textContent = countCharacters(countContent.textContent) + " characters";
+
   })
   .catch((error) => {
     content.textContent = "Could not load " + file + ": " + error.message;
