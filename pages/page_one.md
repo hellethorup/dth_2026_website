@@ -6,7 +6,7 @@ First, open source software makes digital tools more accessible. Since many open
 
 ### Transparency and user control
 
-Another important advantage is transparency and user control. Because the source code is publicly available, users can examine how the software works and what it does with their data (*What Is Open Source Software?*, 2021). They can also modify the software to suit their own needs or continue developing it if the original creators stop maintaining it. This reduces dependence on individual companies and their decisions. In this sense, open source gives users greater ownership and independence over the technology they rely on.
+Another important advantage is transparency and user control. Because the source code is publicly available, users can examine how the software works and what it does with their data (*What Is Open Source Software?*, 2021). They can also modify the software to suit their own needs or continue developing it if the original creators stop maintaining it. This reduces dependence on individual companies and their decisions. In this sense, open source gives users greater control and independence over the technology they rely on.
 
 ### Collaboration and collective development
 
