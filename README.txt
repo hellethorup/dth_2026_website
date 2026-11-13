@@ -1,1 +1,1 @@
-This is my website XD
+Website for Assignment 2 i DTH
