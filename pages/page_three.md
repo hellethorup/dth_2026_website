@@ -8,12 +8,15 @@ StoryMapJS is an open-source digital storytelling tool developed by Northwestern
 
 As a student of Aesthetics and Culture with an elective in Museology, I find StoryMapJS relevant because museums increasingly use digital platforms to communicate cultural heritage. For example, I could use it to create an interactive map of the artworks along the art trail at Vestereng. Each location could include photographs, information about the artwork and its artist, and contextual information. This would give visitors an alternative way to explore the artworks and understand their relationship to the surrounding area.
 
-
+### The 5 checks
 1. **Lincense:** The Mozilla Public License (v. 2.0); allows users to use, modify and distribute the software.
 2. **Last change:** The latest commit was on September 13th 2026.
 3. **Contributers:** 36.
 4. **Questions:** 109 opened and 281 closed issues. Some have responses from the development team, but others remain unanswered. The latest closed issue was in January 2026.
 5. **Funding:** Knight Lab was launched in 2011 with support from the John S. and James L. Knight Foundation. It is part of Northwestern University and run by designers, developers, students, and educators.
+
+### My assesment
+I would consider using StoryMapJS for a thesis, particularly as a tool for presenting research in an interactive format. However, I would keep separate copies of my texts, images, and other research materials rather than relying entirely on the platform. If I needed to stop using StoryMapJS, I could still use my texts, images, and research materials in another tool. However, I might have to recreate the interactive map, which could require additional time and work.
 
 **Sources:**
 - *About Us.* (n.d.). Northwestern University Knight Lab. Retrieved November 12, 2026, from https://knightlab.northwestern.edu/about/

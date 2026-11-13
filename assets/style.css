@@ -1,7 +1,7 @@
 /* root setup */
 
 /* here we import the Lexend font from Google fonts. You can browse other fonts at https://fonts.google.com/*/
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 /* here we set up project specific variables - this way we can keep the style consistent across all pages and elements. You can also create variable names for specific fonts and other elements */
 :root {
@@ -13,7 +13,7 @@
   --purple: #ceaeea;
   --red: #f22c43;
   --yellow: #fddd0d;
-  --projectFont: Lexend, Arial, sans-serif;
+  --projectFont: Inter, Arial, sans-serif;
 }
 
 /* individual element styles */
@@ -22,7 +22,7 @@ body {
   font-family: var(--projectFont);
   padding: 0;
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* some of HTML elements come with element specific style, we want to remove it so we can style them ourselves */
@@ -51,8 +51,15 @@ section {
 
 .navLink,
 .footerLinks {
-  margin-left: 20px;
-  transition: ease-in-out, 0.3s;
+    transition: ease-in-out, 0.3s;
+}
+
+.footerLinks {
+    margin-left: 20px;
+}
+
+.navLink {
+    margin-left: 0;
 }
 
 #navBar>a:hover {
@@ -60,33 +67,65 @@ section {
   cursor: pointer;
 }
 .navLink:hover {
-  color: var(--black);
-  cursor: pointer;
-  background-color: teal;
+ background-color: #DCC3AF;
 }
 
 .navLink {
-  background-color: white;
-  border: 6px solid black;
-    padding: 30px;
-  margin: 30px;
-  border-radius: 40px;
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 22px;
+    background-color: #E9D8C9;
+    color: #694B3C;
+    border: none;
+    border-radius: 12px 12px 0 0;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
 }
 
+#navBar nav ul {
+    display: flex;
+    align-items: flex-end;
+    gap: 0;
+}
+
+#navBar nav ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0;
+}
+
+#navBar nav ul li {
+    margin: 0;
+    padding: 0;
+}
 
 /* hero banner */
 
 #pageHero {
-  background-image: url("./images/skagen.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 40vh;
 }
 
+/* Different banner */
+#page_three #pageHero {
+    background-image: url(images/Storymap.jpg);
+}
+#page_one #pageHero {
+    background-image: url(images/Advantages.png);
+}
+#page_two #pageHero {
+    background-image: url(images/Disadvantages.png);
+}
+
+
 #bannerShadow {
-  background-color: rgba(160, 213, 240, 0.447);
-  height: 100%;
+    background-color: rgba(243, 233, 224, 0.25);
+    height: 100%;
 }
 
 h1 {
@@ -95,6 +134,20 @@ h1 {
   align-self: center;
   text-align: center;
 }
+
+
+/* Make banner heading easier to read */
+#pageHero h1 {
+    background-color: rgba(255, 250, 245, 0.82);
+    color: #332B27;
+    padding: 14px 28px;
+    border-radius: 12px;
+    width: fit-content;
+    max-width: 90%;
+    margin: auto;
+    font-weight: 600;
+}
+
 
 /* carousel articles */
 
@@ -242,4 +295,72 @@ main img {
 
 ol li::marker {
   font-weight: bold;
+}
+
+#navBar > a {
+    color: #694B3C;
+}
+
+
+/* Box around the five checks */
+
+/* The 5 checks box */
+#page_three #content h3:has(+ ol) {
+    background-color: #F3E9E0;
+    border-radius: 16px 16px 0 0;
+    padding: 24px 30px 8px;
+    margin-bottom: 0;
+}
+
+#page_three #content h3 + ol {
+    background-color: #F3E9E0;
+    border-radius: 0 0 16px 16px;
+    padding: 8px 30px 24px 48px;
+    margin-top: 0;
+}
+
+
+/* Typography */
+body {
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+#content h2,
+#content h3 {
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+
+#content p,
+#content li {
+    line-height: 1.65;
+}
+
+#pageHero h1 {
+    font-weight: 600;
+    letter-spacing: -0.8px;
+}
+
+/* Cleaner typography */
+#content {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content p,
+#content li {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+#content h2,
+#content h3 {
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+
+#page_three #content ol li {
+    margin-bottom: 10px;
 }
