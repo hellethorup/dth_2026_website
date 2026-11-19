@@ -18,7 +18,7 @@ As a student of Aesthetics and Culture with an elective in Museology, I find Sto
 ### My assesment
 I would consider using StoryMapJS for a thesis, particularly as a tool for presenting research in an interactive format. However, I would keep separate copies of my texts, images, and other research materials rather than relying entirely on the platform. If I needed to stop using StoryMapJS, I could still use my texts, images, and research materials in another tool. However, I might have to recreate the interactive map, which could require additional time and work.
 
-**Sources:**
+### References 
 - *About Us.* (n.d.). Northwestern University Knight Lab. Retrieved November 12, 2026, from https://knightlab.northwestern.edu/about/
 - *An Incubator for Media Innovation: Innovation & Entrepreneurship - Northwestern University.* (n.d.). Retrieved November 12, 2026, from https://www.northwestern.edu/innovation/innovation-at-northwestern/knight-lab.html
 - *NUKnightLab/StoryMapJS: Maps that tell stories.* (n.d.). Retrieved November 12, 2026, from https://github.com/NUKnightLab/StoryMapJS?tab=License-1-ov-file

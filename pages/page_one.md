@@ -13,7 +13,7 @@ Another important advantage is transparency and user control. Because the source
 Finally, open source encourages collaboration and collective development. Developers and users can contribute to projects by identifying errors, improving features, or translating and documenting the software (*What Is Open Source Software?*, 2021). Zotero illustrates this through its citation styles. Users have contributed new styles when existing options were missing or when lecturers and institutions required a specific referencing method (*Why Zotero?*, n.d.). This lets the software develop in response to users' practical needs, rather than relying solely on the priorities of its original developers. It also demonstrates how users can take an active role in shaping the tools they depend on.
 
 
-**Sources:** 
+### References 
 - *What is Open Source Software? OSS Explained in Plain English.* (2021, August 17). freeCodeCamp.Org. https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english/
 - *Why Zotero?* (n.d.). Zotero. Retrieved November 9, 2026, from https://www.zotero.org/why
 - *Your personal research assistant.* (n.d.). Zotero. Retrieved November 9, 2026, from https://www.zotero.org/
