@@ -364,3 +364,8 @@ body {
 #page_three #content ol li {
     margin-bottom: 10px;
 }
+
+#totalCount {
+  align-self: center;
+  margin: 0;
+}
