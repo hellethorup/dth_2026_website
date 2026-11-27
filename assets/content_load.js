@@ -1,4 +1,4 @@
-do not need to change this file.
+// do not need to change this file.
 // It reads the page name from the address (index.html?page=page_two),
 // loads pages/page_two.md, shows it on the page, and counts its characters.
 // It also adds up the characters of all the pages in the navigation and shows the total in the header.
